@@ -4,16 +4,12 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 100%;
-}
-
-main {
-  height: 100%;
-}
-
-.carousel {
-  height: 100%;
+.shadow {
+  height: calc(100vh - 50px);
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.708);
+  position: absolute;
+  z-index: 1;
 }
 
 img {
@@ -41,6 +37,10 @@ img {
 .bc {
   -o-object-position: bottom center;
      object-position: bottom center;
+}
+
+.carousel-caption {
+  z-index: 1;
 }
 
 .navbar {

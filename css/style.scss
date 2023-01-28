@@ -6,17 +6,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
-    height: 100%;
+.shadow {
+    height: calc(100vh - 50px);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.708);
+    position: absolute;
+    z-index: 1;
 }
-main {
-    height: 100%;
-}
-.carousel {
-    height: 100%;
-}
-
-
 img {
     height: calc(100vh - 50px);
     object-fit: cover;
@@ -34,8 +30,9 @@ img {
 .bc{
     object-position: bottom center;
 }
-
-
+.carousel-caption {
+    z-index: 1;
+}
 .navbar {
     height: 50px;
 }
