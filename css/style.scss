@@ -1,2 +1,47 @@
 @import 'mixins';
 @import 'variables';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+}
+main {
+    height: 100%;
+}
+.carousel {
+    height: 100%;
+}
+
+
+img {
+    height: calc(100vh - 50px);
+    object-fit: cover;
+    overflow: hidden;
+}
+.tr {
+    object-position: top right;
+}
+.tc {
+    object-position: center center;
+}
+.tl {
+    object-position: top left;
+}
+.bc{
+    object-position: bottom center;
+}
+
+
+.navbar {
+    height: 50px;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: auto;
+    }
+

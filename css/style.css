@@ -1,1 +1,54 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+main {
+  height: 100%;
+}
+
+.carousel {
+  height: 100%;
+}
+
+img {
+  height: calc(100vh - 50px);
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.tr {
+  -o-object-position: top right;
+     object-position: top right;
+}
+
+.tc {
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+.tl {
+  -o-object-position: top left;
+     object-position: top left;
+}
+
+.bc {
+  -o-object-position: bottom center;
+     object-position: bottom center;
+}
+
+.navbar {
+  height: 50px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: auto;
+}/*# sourceMappingURL=style.css.map */
