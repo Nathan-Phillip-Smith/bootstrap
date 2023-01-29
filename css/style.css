@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -23,6 +24,9 @@
 
 .caption-button {
   background-color: rgb(41, 139, 41);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   color: white;
   border: none;
   border-radius: 50px;
@@ -87,10 +91,17 @@ img {
   height: 60px;
 }
 
-.navbar-expand-lg .navbar-collapse {
+.navbar-collapse {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   flex-basis: auto;
+}
+
+.navbar-nav {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 710px) {
@@ -101,6 +112,8 @@ img {
   .logo-color {
     font-size: 1.2em;
   }
+}
+@media screen and (max-width: 450px) {
   .caption-overview {
     display: none;
   }
